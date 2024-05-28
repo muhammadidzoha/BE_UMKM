@@ -10,4 +10,4 @@ router.get("/products", getProducts);
 
 router.post("/product", createProduct);
 
-export default router;
+module.exports = router;
